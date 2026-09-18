@@ -1,0 +1,10 @@
+name: channel-pass
+static_sites:
+  - name: web
+    github:
+      repo: MonkeyScience/channel-pass
+      branch: main
+      deploy_on_push: true
+    source_dir: /
+    index_document: index.html
+    catchall_document: index.html
